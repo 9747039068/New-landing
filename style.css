@@ -1,0 +1,135 @@
+*
+{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)),url('download (2).jpg');
+    background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: cover;
+     background-position: center;
+     height: 100vh;
+     box-sizing: border-box;
+ }
+ header{
+
+display: flex;
+justify-content: space-between;
+ }
+ h1{
+    color: whitesmoke;
+    margin: 10px 20px;
+    padding: 30px;
+ }
+ .nav
+ {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    margin: 10px 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: whitesmoke;
+ }
+ .nav ul{
+    list-style: none;
+    overflow: hidden;
+ 
+ }
+ .nav ul li{
+    display: inline-block;
+    margin-left: 3em;
+    font-size: 20px;
+    font-weight: 500;
+    
+ }
+ .nav ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-style: italic;
+    border-bottom: 2px solid transparent;
+    float: right;
+    padding: 10px 20px;
+    
+ }
+ .nav ul li a:hover{
+    border-bottom: 2px solid whitesmoke;
+    background-color: indianred;
+    padding: 20px;
+ }
+ .text
+{
+   color: whitesmoke;
+ text-align: center;
+ padding-top: 50px;
+ padding-bottom: 50px;
+ margin-top: 50px;
+ margin-bottom: auto;
+ font-size: 30px;
+}
+.text p{
+   padding-bottom: 50px;
+}
+.text a{
+   text-decoration: none;
+   color: whitesmoke;
+   background-color: indianred;
+   font-weight: 900;
+   font-size: 30px;
+   padding: 10px;
+   border-radius: 10px;
+   
+}
+.text a:hover{
+   background-color: rgb(36, 141, 182);
+}
+hr{
+    border:none;
+     margin-top: 20px;
+     margin-bottom:5px; 
+    height: 4px;
+    width: 200px;
+    background-color: indianred;
+    margin-left: 20px;
+}
+h2{
+    color: whitesmoke;
+    margin: 30px 10px;
+    padding: 10px 10px;
+}
+.box
+{
+   position: relative;
+   justify-content: space-between;
+   width: 10%;
+   display: inline-block;
+   padding: 10px;
+   margin-top: 20px;
+    margin-right: 25px; 
+   border: 1px solid #cacaca;
+   border-radius: 20px;
+   box-shadow: 0 5px 0 #cacaca;
+}
+ .box .imgbox{
+   position: relative; 
+    overflow: hidden; 
+  
+  
+}
+.box .imgbox img{
+   max-width: 80%;
+   transition: transform;
+   border-radius: 20px;
+  
+}
+.box:hover .imgbox img{
+   transform: scale(1.2);
+}
+p{
+    color: whitesmoke;
+}

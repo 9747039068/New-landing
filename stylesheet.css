@@ -1,0 +1,62 @@
+body{
+    background-image: url('download.jpg');
+    background-size: cover;
+    font-family: sans-serif;
+    padding: 20px;
+}
+h1,h2,p{
+    text-align: center;
+}
+.menu
+{
+    width: 90%;
+    background: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+}
+h1{
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+
+}
+h2{
+    font-size: 30px;
+}
+.established{
+        font-style: italics;
+    }
+.item p
+        {
+display: inline-block;
+margin-top: 5px;
+margin-bottom: 5px;
+font-size: 18px;
+        }
+   .varierirs, .dessert 
+   {
+    text-align: left;
+    width: 90%;
+   }
+   img{
+    height: 20%;
+    width: 100%;
+   }
+   .item p{
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+   }
+   .price
+   {
+    text-align: right;
+    width: 90%;
+   }
+   hr{
+    background-color: brown;
+    height: 2px;
+    border-color: brown;
+   }
